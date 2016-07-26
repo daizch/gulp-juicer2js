@@ -1,4 +1,4 @@
-function file(_, _method) {_method.__escapehtml={"escapehash":{"<":"&lt;",">":"&gt;","&":"&amp;","\"":"&quot;","'":"&#x27;","/":"&#x2f;"},"escapereplace":function (k) {
+function var(_, _method) {_method.__escapehtml={"escapehash":{"<":"&lt;",">":"&gt;","&":"&amp;","\"":"&quot;","'":"&#x27;","/":"&#x2f;"},"escapereplace":function (k) {
             return __escapehtml.escapehash[k];
         },"escaping":function (str) {
             return typeof(str) !== 'string' ? str : str.replace(/[&<>"']/igm, this.escapereplace);
