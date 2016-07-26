@@ -1,4 +1,4 @@
-# gulp-wrap
+# gulp-juicer2js
 
 [![NPM version](https://img.shields.io/npm/v/gulp-juicer2js.svg?style=flat)](https://www.npmjs.com/package/gulp-juicer2js)
 [![Build Status](https://secure.travis-ci.org/Dijason/gulp-juicer2js.svg?branch=master)](http://travis-ci.org/Dijason/gulp-juicer2js)

@@ -1,6 +1,6 @@
 {
   "name": "gulp-juicer2js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A gulp plugin for compiling juicer to js",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "gulp-xtpl2js",
     "gulp",
     "juicer",
-    "template"
+    "template",
+    "gulp-juicer"
   ],
   "author": {
     "name": "Jason Dai",
