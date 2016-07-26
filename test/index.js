@@ -9,7 +9,7 @@ require('mocha');
 describe('gulp test', function () {
     it('test varible', function (done) {
 
-        var fakeFilePath = pjoin(process.cwd(), '/test/fixtures/file.js');
+        var fakeFilePath = pjoin(process.cwd(), '/test/fixtures/var.js');
         var getFakeFile = function (fileContent) {
 
             return new gutil.File({
@@ -28,8 +28,7 @@ describe('gulp test', function () {
             var dirname = process.cwd();
             var extname = path.extname(fp);
             var result = file.contents.toString();
-            console.log(result)
-            // result.should.eql(fs.readFileSync(fakeFilePath).toString());
+            result.should.eql(fs.readFileSync(fakeFilePath).toString());
         });
 
         stream.once('end', function () {
